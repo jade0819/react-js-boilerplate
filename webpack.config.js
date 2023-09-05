@@ -1,6 +1,6 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -17,7 +17,6 @@ module.exports = {
         test: /\.(js|jsx)$/,
         use: 'babel-loader',
         exclude: /node_modules/,
-        // options: { presets: ['@babel/env', '@babel/preset-react'] },
       },
       {
         test: /\.css$/,

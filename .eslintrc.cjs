@@ -30,7 +30,7 @@ module.exports = {
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }], // console.log() 금지
     eqeqeq: 'error', // 일치 연산자 사용 필수
     'no-unused-vars': 'warn', // 사용하지 않는 변수 금지
-    'react/prop-types': 'off',
+    'react/prop-types': 'off', // props를 사용할 때 propTypes 설정 금지
     'react/react-in-jsx-scope': 'off',
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
   },

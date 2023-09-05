@@ -6,11 +6,16 @@
   "scripts": {
     "start": "webpack serve --mode development --open --hot",
     "build": "webpack --mode production",
+    "postinstall": "husky install",
     "format": "prettier --cache --write .",
-    "lint": "eslint --cache .",
-    "postinstall": "husky install"
+    "lint": "eslint --cache ."
   },
-  "keywords": [],
+  "keywords": [
+    "webpack",
+    "babel",
+    "react",
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

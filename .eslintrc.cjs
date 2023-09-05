@@ -26,5 +26,6 @@ module.exports = {
     'no-unused-vars': 'warn', // 사용하지 않는 변수 금지
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
   },
 };
